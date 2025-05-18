@@ -28,4 +28,11 @@ void led_init(void);
 void gas_sensor_init(void);
 void buzzer_init(void);
 
+void button_interrupt_init(void);
+
+void led_on(GPIO_TypeDef* GPIOx, uint16_t pin);
+void led_off(GPIO_TypeDef* GPIOx, uint16_t pin);
+void buzzer_on(void);
+void buzzer_off(void);
+
 #endif __GPIO_H__
