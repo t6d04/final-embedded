@@ -35,4 +35,4 @@ void led_off(GPIO_TypeDef* GPIOx, uint16_t pin);
 void buzzer_on(void);
 void buzzer_off(void);
 
-#endif __GPIO_H__
+#endif // __GPIO_H__
