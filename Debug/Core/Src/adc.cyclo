@@ -1,2 +1,0 @@
-../Core/Src/adc.c:3:6:adc1_init	2
-../Core/Src/adc.c:37:10:adc1_read_channel	2
